@@ -1,0 +1,26 @@
+{
+  "entities": {
+    "SiteConfig": {
+      "title": "SiteConfig",
+      "description": "Global configuration for the Barber Shop",
+      "type": "object",
+      "properties": {
+        "heroImage": {
+          "type": "string",
+          "description": "URL for the hero background"
+        },
+        "logo": {
+          "type": "string",
+          "description": "URL for the logo"
+        }
+      },
+      "required": ["heroImage", "logo"]
+    }
+  },
+  "firestore": {
+    "/siteConfig/{docId}": {
+      "schema": { "$ref": "#/entities/SiteConfig" },
+      "description": "Publicly readable site configuration"
+    }
+  }
+}

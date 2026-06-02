@@ -1,0 +1,6 @@
+{
+  "name": "Golden Barber Shop",
+  "description": "Premium barber shop in Sala Al Jadida offering clean haircuts, fades, and grooming services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
