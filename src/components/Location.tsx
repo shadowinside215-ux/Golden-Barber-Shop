@@ -39,7 +39,7 @@ export default function Location() {
                   {t.location.address3}
                 </p>
                 <a 
-                  href="https://maps.google.com/?q=40004,+Av.+Moulay+Abdellah+D+185+MAG+06,+Sala+Al+Jadida+11100" 
+                  href="https://maps.google.com/?q=Rue+Tansift,+Rabat+10090,+Morocco" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-gold-500 hover:text-gold-400 font-medium transition-colors"
@@ -60,7 +60,7 @@ export default function Location() {
           >
             {/* Minimalist interactive map substitute (since actual maps iframe might be heavy/complex for layout, use a styled cover with link, or a direct iframe to Google Maps) */}
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1651.528445980072!2d-6.74668!3d33.9922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76a5247814aab%3A0xc6a804edbe02a0a3!2sSala%20Al%20Jadida!5e0!3m2!1sen!2sma!4v1700000000000!5m2!1sen!2sma" 
+              src="https://maps.google.com/maps?q=Rue%20Tansift,%20Rabat%2010090,%20Morocco&t=&z=15&ie=UTF8&iwloc=&output=embed"
               width="100%" 
               height="100%" 
               style={{ border: 0, filter: 'contrast(1.2) opacity(0.8)' }} 

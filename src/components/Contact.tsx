@@ -33,7 +33,7 @@ export default function Contact() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 relative z-10">
             <a 
-              href="https://wa.me/212624720228" 
+              href="https://wa.me/212666566085?text=Hello%20Royal%20Barber%20Agdal" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-8 py-4 bg-[#25D366] hover:bg-[#20bd5a] text-white font-semibold rounded-lg flex items-center justify-center gap-3 transition-colors duration-300 shadow-lg shadow-[#25D366]/20"
@@ -42,7 +42,7 @@ export default function Contact() {
               {t.contact.whatsapp}
             </a>
             <a 
-              href="tel:+212624720228" 
+              href="tel:+212666566085" 
               className="w-full sm:w-auto px-8 py-4 bg-brand-black hover:bg-black border border-zinc-700 hover:border-zinc-500 text-white font-semibold rounded-lg flex items-center justify-center gap-3 transition-colors duration-300"
             >
               <Phone className="w-6 h-6" />

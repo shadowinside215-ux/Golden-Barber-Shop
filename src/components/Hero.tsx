@@ -37,7 +37,7 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10">
             <a 
-              href="https://wa.me/212624720228" 
+              href="https://wa.me/212666566085?text=Hello%20Royal%20Barber%20Agdal" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-8 py-4 bg-gold-500 hover:bg-gold-400 text-brand-black font-semibold rounded-lg flex items-center justify-center gap-2 transition-colors duration-300"
@@ -46,14 +46,14 @@ export default function Hero() {
               {t.hero.bookAppt}
             </a>
             <a 
-              href="tel:+212624720228" 
+              href="tel:+212666566085" 
               className="w-full sm:w-auto px-8 py-4 bg-brand-dark hover:bg-zinc-800 border border-zinc-700 text-white font-semibold rounded-lg flex items-center justify-center gap-2 transition-colors duration-300"
             >
               <Phone className="w-5 h-5" />
               {t.hero.callUs}
             </a>
             <a 
-              href="https://maps.google.com/?q=Av.+Moulay+Abdellah+D+185+MAG+06,+Sala+Al+Jadida+11100" 
+              href="https://maps.google.com/?q=Rue+Tansift,+Rabat+10090,+Morocco" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-8 py-4 bg-brand-dark hover:bg-zinc-800 border border-zinc-700 text-white font-semibold rounded-lg flex items-center justify-center gap-2 transition-colors duration-300"

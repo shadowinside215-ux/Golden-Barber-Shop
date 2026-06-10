@@ -11,7 +11,7 @@ import AdminModal from './components/AdminModal';
 import Navigation from './components/Navigation';
 import Lenis from 'lenis';
 import { LanguageProvider, useLanguage } from './components/LanguageProvider';
-import { Instagram, Facebook } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 
 function AppContent() {
   const { t } = useLanguage();
@@ -51,11 +51,8 @@ function AppContent() {
       <footer className="py-12 text-center text-zinc-500 border-t border-gold-500/10 bg-brand-dark relative z-10">
         <div className="max-w-7xl mx-auto px-4 flex flex-col items-center">
           <div className="flex gap-4 items-center mb-6">
-            <a href="https://www.instagram.com/golden_men_rabat?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-gold-500 transition-colors">
+            <a href="https://www.instagram.com/royal_barber_agdal_rabat?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-gold-500 transition-colors">
               <Instagram className="w-6 h-6" />
-            </a>
-            <a href="https://web.facebook.com/people/Golden-Barber/100027047362812/?sk=photos" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-gold-500 transition-colors">
-              <Facebook className="w-6 h-6" />
             </a>
           </div>
           <div className="flex gap-2 items-center mb-6 opacity-50">
@@ -63,11 +60,11 @@ function AppContent() {
             <span className="w-2 h-2 rounded-full border border-gold-500 transform rotate-45"></span>
             <span className="w-12 h-px bg-gold-500"></span>
           </div>
-          <p className="font-display italic text-lg mb-2">Golden Barber Shop</p>
+          <p className="font-display italic text-lg mb-2">Royal Barber Agdal</p>
           <p className="text-sm tracking-widest uppercase">© {new Date().getFullYear()} {t.footer.rights}</p>
         </div>
       </footer>
-      {/* <AdminModal /> hidden admin function per request */}
+      <AdminModal />
     </div>
   );
 }

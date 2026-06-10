@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Menu, X, Instagram, Facebook } from 'lucide-react';
+import { Menu, X, Instagram } from 'lucide-react';
 import EditableImage from './EditableImage';
 import { useLanguage, Language } from './LanguageProvider';
 
@@ -43,7 +43,7 @@ export default function Navigation() {
             className="w-10 h-10 sm:w-16 sm:h-16 rounded overflow-hidden shrink-0 bg-brand-dark flex items-center justify-center p-1"
           />
           <span className="font-display font-medium text-lg leading-tight sm:leading-normal sm:text-2xl tracking-[0.05em] sm:tracking-[0.1em] text-gold-500 max-w-[140px] sm:max-w-none">
-            Golden Barber Shop<span className="italic">.</span>
+            Royal Barber Agdal<span className="italic">.</span>
           </span>
         </div>
 
@@ -60,11 +60,8 @@ export default function Navigation() {
           ))}
           
           <div className="flex items-center gap-3 border-l border-zinc-800 pl-4 lg:pl-6 ml-2">
-            <a href="https://www.instagram.com/golden_men_rabat?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-gold-400 transition-colors">
+            <a href="https://www.instagram.com/royal_barber_agdal_rabat?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-gold-400 transition-colors">
               <Instagram className="w-5 h-5" />
-            </a>
-            <a href="https://web.facebook.com/people/Golden-Barber/100027047362812/?sk=photos" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-gold-400 transition-colors">
-              <Facebook className="w-5 h-5" />
             </a>
           </div>
 
@@ -81,7 +78,7 @@ export default function Navigation() {
           </div>
 
           <a 
-            href="tel:+212624720228"
+            href="tel:+212666566085"
             className="px-5 py-2.5 rounded-full bg-gold-500 text-brand-black font-semibold text-sm hover:bg-gold-400 transition-colors whitespace-nowrap"
           >
             {t.nav.bookNow}
@@ -130,16 +127,13 @@ export default function Navigation() {
                 </a>
               ))}
               <div className="flex justify-center gap-6 py-4">
-                <a href="https://www.instagram.com/golden_men_rabat?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-gold-400">
+                <a href="https://www.instagram.com/royal_barber_agdal_rabat?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-gold-400">
                   <Instagram className="w-6 h-6" />
-                </a>
-                <a href="https://web.facebook.com/people/Golden-Barber/100027047362812/?sk=photos" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-gold-400">
-                  <Facebook className="w-6 h-6" />
                 </a>
               </div>
               <div className="pt-2 border-t border-zinc-800">
                 <a 
-                  href="tel:+212624720228"
+                  href="tel:+212666566085"
                   className="block w-full text-center px-5 py-3 rounded-lg bg-gold-500 text-brand-black font-semibold text-base hover:bg-gold-400 transition-colors"
                 >
                   {t.nav.bookNow}

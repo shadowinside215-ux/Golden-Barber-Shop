@@ -9,7 +9,7 @@ export const translations = {
       bookNow: 'Book Now'
     },
     hero: {
-      location: 'Golden Barber Shop • Sala Al Jadida',
+      location: 'Royal Barber Agdal • Rabat',
       title1: 'Authentic ',
       title2: 'Craftsmanship',
       title3: '& Classic Style',
@@ -20,21 +20,21 @@ export const translations = {
     about: {
       tradition: 'The Tradition',
       title1: 'Authentic Grooming',
-      title1b: 'in Sala Al Jadida',
-      p1: 'Rooted in traditional Moroccan hospitality and modern barbering techniques, Golden Barber Shop offers more than just a haircut—it is a grooming ritual.',
-      p2: 'Every detail of our space in Sala Al Jadida is designed to provide you with a moment of relaxation, precision, and authentic craftsmanship.',
+      title1b: 'in Agdal Rabat',
+      p1: 'Rooted in traditional Moroccan hospitality and modern barbering techniques, Royal Barber Agdal offers more than just a haircut—it is a grooming ritual.',
+      p2: 'Every detail of our space in Agdal Rabat is designed to provide you with a moment of relaxation, precision, and authentic craftsmanship.',
       stats: {
-        stars: '4.8',
+        stars: '5.0',
         google: 'Google Reviews',
-        open: 'Open',
-        days: '6 Days a Week',
+        open: 'Until 10 PM',
+        days: 'Every Day',
         precision: 'Precision',
         inEveryCut: 'In every cut'
       }
     },
     services: {
       menu: 'Our Menu',
-      title1: 'Golden Standard',
+      title1: 'Royal Standard',
       title2: 'Grooming',
       subtitle: 'We offer a versatile range of premium services to keep you looking sharp and fresh.',
       items: [
@@ -52,16 +52,16 @@ export const translations = {
     reviews: {
       basedOn: 'Based on',
       google: 'Google Reviews',
-      quote: '"Trusted by gentlemen in Sala Al Jadida."'
+      quote: '"Trusted by gentlemen in Agdal Rabat."'
     },
     location: {
       visitUs: 'Visit Us',
       title1: 'Find Us in',
-      title2: 'Sala Al Jadida',
-      name: 'Golden Barber Shop',
-      address: '40004, Av. Moulay Abdellah',
-      address2: 'D 185 MAG 06',
-      address3: 'Sala Aljadida, Morocco',
+      title2: 'Agdal Rabat',
+      name: 'Royal Barber Agdal',
+      address: 'Rue Tansift',
+      address2: 'Rabat 10090',
+      address3: 'Morocco',
       getDirections: 'Get Directions'
     },
     contact: {
@@ -86,7 +86,7 @@ export const translations = {
       bookNow: 'Réserver'
     },
     hero: {
-      location: 'Golden Barber Shop • Sala Al Jadida',
+      location: 'Royal Barber Agdal • Rabat',
       title1: 'Savoir-faire',
       title2: 'Authentique',
       title3: '& Style Classique',
@@ -97,21 +97,21 @@ export const translations = {
     about: {
       tradition: 'La Tradition',
       title1: 'Soins Authentiques',
-      title1b: 'à Sala Al Jadida',
-      p1: "Enraciné dans l'hospitalité marocaine traditionnelle et les techniques de coiffure modernes, Golden Barber Shop offre plus qu'une simple coupe de cheveux : c'est un rituel de toilettage.",
-      p2: 'Chaque détail de notre espace à Sala Al Jadida est conçu pour vous offrir un moment de détente, de précision et de savoir-faire authentique.',
+      title1b: 'à Agdal Rabat',
+      p1: "Enraciné dans l'hospitalité marocaine traditionnelle et les techniques de coiffure modernes, Royal Barber Agdal offre plus qu'une simple coupe de cheveux : c'est un rituel de toilettage.",
+      p2: 'Chaque détail de notre espace à Agdal Rabat est conçu pour vous offrir un moment de détente, de précision et de savoir-faire authentique.',
       stats: {
-        stars: '4.8',
+        stars: '5.0',
         google: 'Avis Google',
-        open: 'Ouvert',
-        days: '6 Jours sur 7',
+        open: 'Jusqu\'à 22h',
+        days: 'Tous les jours',
         precision: 'Précision',
         inEveryCut: 'Dans chaque coupe'
       }
     },
     services: {
       menu: 'Notre Menu',
-      title1: 'Norme d\'or',
+      title1: 'Norme Royale',
       title2: 'Du Toilettage',
       subtitle: 'Nous offrons une gamme polyvalente de services haut de gamme pour vous garder élégant et frais.',
       items: [
@@ -129,16 +129,16 @@ export const translations = {
     reviews: {
       basedOn: 'Basé sur les',
       google: 'Avis Google',
-      quote: '"Faites confiance aux gentlemen de Sala Al Jadida."'
+      quote: '"Faites confiance aux gentlemen de Agdal Rabat."'
     },
     location: {
       visitUs: 'Visitez-nous',
       title1: 'Retrouvez-nous à',
-      title2: 'Sala Al Jadida',
-      name: 'Golden Barber Shop',
-      address: '40004, Av. Moulay Abdellah',
-      address2: 'D 185 MAG 06',
-      address3: 'Sala Al Jadida, Maroc',
+      title2: 'Agdal Rabat',
+      name: 'Royal Barber Agdal',
+      address: 'Rue Tansift',
+      address2: 'Rabat 10090',
+      address3: 'Maroc',
       getDirections: 'Obtenir l\'itinéraire'
     },
     contact: {
@@ -163,7 +163,7 @@ export const translations = {
       bookNow: 'احجز الآن'
     },
     hero: {
-      location: 'جولدن باربر شوب • سلا الجديدة',
+      location: 'رويال باربر أكدال • الرباط',
       title1: 'أصالة',
       title2: 'وحرفية',
       title3: 'وأناقة كلاسيكية',
@@ -174,21 +174,21 @@ export const translations = {
     about: {
       tradition: 'التقاليد',
       title1: 'حلاقة أصيلة',
-      title1b: 'في سلا الجديدة',
-      p1: 'يجمع صالون جولدن باربر شوب بين كرم الضيافة المغربية الأصيلة وأحدث تقنيات الحلاقة، ليقدم لك طقوساً متكاملة للعناية بمظهرك.',
-      p2: 'كل تفصيلة في صالوننا بسلا الجديدة مصممة لتمنحك لحظات من الاسترخاء، الدقة، والحرفية الأصيلة.',
+      title1b: 'في أكدال الرباط',
+      p1: 'يجمع صالون رويال باربر أكدال بين كرم الضيافة المغربية الأصيلة وأحدث تقنيات الحلاقة، ليقدم لك طقوساً متكاملة للعناية بمظهرك.',
+      p2: 'كل تفصيلة في صالوننا في أكدال الرباط مصممة لتمنحك لحظات من الاسترخاء، الدقة، والحرفية الأصيلة.',
       stats: {
-        stars: '4.8',
+        stars: '5.0',
         google: 'تقييم جوجل',
-        open: 'مفتوح',
-        days: '6 أيام في الأسبوع',
+        open: 'حتى الساعة 10 مساءً',
+        days: 'كل يوم',
         precision: 'دقة',
         inEveryCut: 'في كل قصة'
       }
     },
     services: {
       menu: 'قائمة الخدمات',
-      title1: 'المعيار الذهبي',
+      title1: 'المعيار الملكي',
       title2: 'للحلاقة',
       subtitle: 'نقدم مجموعة متنوعة من الخدمات المميزة لضمان إطلالة أنيقة وعصرية.',
       items: [
@@ -206,16 +206,16 @@ export const translations = {
     reviews: {
       basedOn: 'بناءً على',
       google: 'تقييمات جوجل',
-      quote: '"محل ثقة الرجال في سلا الجديدة."'
+      quote: '"محل ثقة الرجال في أكدال الرباط."'
     },
     location: {
       visitUs: 'زرنا',
       title1: 'تجدنا في',
-      title2: 'سلا الجديدة',
-      name: 'جولدن باربر شوب',
-      address: '40004، شارع مولاي عبد الله',
-      address2: 'D 185 MAG 06',
-      address3: 'سلا الجديدة، المغرب',
+      title2: 'أكدال الرباط',
+      name: 'رويال باربر أكدال',
+      address: 'شارع تانسيفت',
+      address2: 'الرباط 10090',
+      address3: 'المغرب',
       getDirections: 'احصل على الاتجاهات'
     },
     contact: {

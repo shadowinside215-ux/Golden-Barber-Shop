@@ -43,8 +43,8 @@ export function AdminProvider({ children }: { children: ReactNode }) {
   const [config, setConfig] = useState<SiteConfig>(DEFAULT_CONFIG);
 
   useEffect(() => {
-    // const isLogged = localStorage.getItem('admin_logged_in') === 'true';
-    // if (isLogged) setIsAdmin(true);
+    const isLogged = localStorage.getItem('admin_logged_in') === 'true';
+    if (isLogged) setIsAdmin(true);
 
     const docRef = doc(db, 'siteConfig', 'global');
     const unsubscribe = onSnapshot(docRef, (snapshot) => {
