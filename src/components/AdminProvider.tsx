@@ -28,6 +28,7 @@ interface AdminContextType {
   config: SiteConfig;
   updateConfig: (partial: Partial<SiteConfig>) => Promise<void>;
   uploadImage: (file: File) => Promise<string>;
+  isConfigLoaded: boolean;
 }
 
 const AdminContext = createContext<AdminContextType | null>(null);
@@ -41,10 +42,11 @@ export const useAdmin = () => {
 export function AdminProvider({ children }: { children: ReactNode }) {
   const [isAdmin, setIsAdmin] = useState(false);
   const [config, setConfig] = useState<SiteConfig>(DEFAULT_CONFIG);
+  const [isConfigLoaded, setIsConfigLoaded] = useState(false);
 
   useEffect(() => {
-    const isLogged = localStorage.getItem('admin_logged_in') === 'true';
-    if (isLogged) setIsAdmin(true);
+    // const isLogged = localStorage.getItem('admin_logged_in') === 'true';
+    // if (isLogged) setIsAdmin(true);
 
     const docRef = doc(db, 'siteConfig', 'global');
     const unsubscribe = onSnapshot(docRef, (snapshot) => {
@@ -54,8 +56,10 @@ export function AdminProvider({ children }: { children: ReactNode }) {
         // Init default if doesn't exist (fails if rules prevent create, but handles gracefully)
         setDoc(docRef, DEFAULT_CONFIG).catch(e => console.warn(e));
       }
+      setIsConfigLoaded(true);
     }, (error) => {
       handleFirestoreError(error, OperationType.GET, 'siteConfig/global');
+      setIsConfigLoaded(true);
     });
 
     return () => unsubscribe();
@@ -113,7 +117,7 @@ export function AdminProvider({ children }: { children: ReactNode }) {
   };
 
   return (
-    <AdminContext.Provider value={{ isAdmin, login, logout, config, updateConfig, uploadImage }}>
+    <AdminContext.Provider value={{ isAdmin, login, logout, config, updateConfig, uploadImage, isConfigLoaded }}>
       {children}
     </AdminContext.Provider>
   );

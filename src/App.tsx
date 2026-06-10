@@ -6,7 +6,7 @@ import Reviews from './components/Reviews';
 import Location from './components/Location';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
-import { AdminProvider } from './components/AdminProvider';
+import { AdminProvider, useAdmin } from './components/AdminProvider';
 import AdminModal from './components/AdminModal';
 import Navigation from './components/Navigation';
 import Lenis from 'lenis';
@@ -15,6 +15,7 @@ import { Instagram } from 'lucide-react';
 
 function AppContent() {
   const { t } = useLanguage();
+  const { isConfigLoaded } = useAdmin();
   
   useEffect(() => {
     const lenis = new Lenis({
@@ -36,6 +37,12 @@ function AppContent() {
 
     return () => lenis.destroy();
   }, []);
+
+  if (!isConfigLoaded) {
+    return <div className="min-h-screen bg-brand-black flex items-center justify-center">
+      <div className="w-8 h-8 rounded-full border-2 border-gold-500 border-t-transparent animate-spin"></div>
+    </div>;
+  }
 
   return (
     <div className="min-h-screen bg-brand-black text-[#F4F1ED] selection:bg-gold-500/30 font-sans bg-moroccan-pattern">
@@ -64,7 +71,7 @@ function AppContent() {
           <p className="text-sm tracking-widest uppercase">© {new Date().getFullYear()} {t.footer.rights}</p>
         </div>
       </footer>
-      <AdminModal />
+      {/* <AdminModal /> hidden admin function per user request */}
     </div>
   );
 }
